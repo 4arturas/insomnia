@@ -1,27 +1,26 @@
-_id: req_706a2459e31944ff908df0927b6e4eb1
+_id: req_e7a02f0b2b484d89baa790d09a1a4783
 type: Request
 parentId: wrk_8bbb0d9435a943e29c6ffb08497bea26
-modified: 1647279832593
-created: 1647017627119
-url: http://localhost:4000/events
-name: Add Event
+modified: 1647279910734
+created: 1647279748040
+url: http://localhost:4000/events/e26ed961-23a4-4091-bca1-3081fcddcfdd
+name: Update Event
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-      "id": "sms_notifications",
-      "enabled": false,
-      "user": "5519f5e2-1b12-4a1a-a1fe-e3e6430e4ed1"
+    	"eventId": "e26ed961-23a4-4091-bca1-3081fcddcfdd", 
+    	"enabled": false
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_c3bd219ccccc4043ad902d8c47e4e274
+    id: pair_1bdc284fd56a40b3a3396377b83a4812
 authentication: {}
-metaSortKey: -1647017627119
+metaSortKey: -1647279748040
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
