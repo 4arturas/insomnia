@@ -1,0 +1,32 @@
+_id: req_fe15ae0f71304ab7aeb18e71e2e2d1d0
+type: Request
+parentId: wrk_8bbb0d9435a943e29c6ffb08497bea26
+modified: 1647148745578
+created: 1647017562087
+url: http://localhost:4000/users
+name: Add User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"test1@test.com",
+    	"firstName":"John",
+    	"lastName":"Doe",
+    	"consents": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_52f1de06f8824db09f4055221ffb7a81
+authentication: {}
+metaSortKey: -1647050041253.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

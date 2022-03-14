@@ -1,0 +1,37 @@
+_id: req_6aa0be272fe8434e8bc9db3abb4da81b
+type: Request
+parentId: wrk_8bbb0d9435a943e29c6ffb08497bea26
+modified: 1647149017089
+created: 1647148755786
+url: http://localhost:4000/users
+name: Add User sms_notifications
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"test5@test.com",
+    	"firstName":"John",
+    	"lastName":"Doe",
+    	"consents": [
+    		{
+      		"id": "sms_notifications",
+      		"enabled": false  		
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_52f1de06f8824db09f4055221ffb7a81
+authentication: {}
+metaSortKey: -1647033834186.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

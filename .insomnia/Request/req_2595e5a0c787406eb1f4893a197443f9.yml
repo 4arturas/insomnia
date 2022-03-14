@@ -1,0 +1,21 @@
+_id: req_2595e5a0c787406eb1f4893a197443f9
+type: Request
+parentId: wrk_8bbb0d9435a943e29c6ffb08497bea26
+modified: 1647147353044
+created: 1647017472667
+url: http://localhost:4000/users
+name: Get  All Users
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647082455388
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

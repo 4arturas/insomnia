@@ -1,0 +1,31 @@
+_id: req_706a2459e31944ff908df0927b6e4eb1
+type: Request
+parentId: wrk_8bbb0d9435a943e29c6ffb08497bea26
+modified: 1647148758747
+created: 1647017627119
+url: http://localhost:4000/events
+name: Add Event
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "sms_notifications",
+      "enabled": false,
+      "user": "5519f5e2-1b12-4a1a-a1fe-e3e6430e4ed1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c3bd219ccccc4043ad902d8c47e4e274
+authentication: {}
+metaSortKey: -1647017627119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

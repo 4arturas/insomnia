@@ -1,0 +1,41 @@
+_id: req_b78135948a2c430ba5c7f4c46802ae05
+type: Request
+parentId: wrk_8bbb0d9435a943e29c6ffb08497bea26
+modified: 1647279528578
+created: 1647148901099
+url: http://localhost:4000/users
+name: Add User email and sms notifications
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"test6@test.com",
+    	"firstName":"John",
+    	"lastName":"Doe",
+    	"consents": [
+    		{
+      		"id": "email_notifications",
+      		"enabled": true  		
+    		},
+    		{
+      		"id": "sms_notifications",
+      		"enabled": false  		
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_52f1de06f8824db09f4055221ffb7a81
+authentication: {}
+metaSortKey: -1647025730652.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
